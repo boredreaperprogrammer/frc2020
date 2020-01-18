@@ -15,12 +15,14 @@ import com.qualcomm.robotcore.hardware.DistanceSensor;
 import edu.wpi.first.wpilibj.DriverStation;
 
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
+//autonomous code for position control
 
 import java.util.Locale;
 public class gear ratio extends subsystems {
     // if uisng wheel 1/4 the size of color wheel
 
     public static final int MEASURE_FOR_ROTATION = 4096;
+    //variable for 1 rotation
     
     public static void robocolor{
     String blue = 'B';
@@ -28,14 +30,15 @@ public class gear ratio extends subsystems {
     String red  = 'R';
     String yellow ='Y';
     }
-    
+    // automonous code for position control converted to variables
     public static void sensorColor{
     telemetry.addData ( sensorColor.red());
     telemetry.addData (sensorColor.blue());
     telemetry.addData (sensorColor.yellow());
     telemetry.addData ( sensorColor.green());
     }
-
+//color sensing code
+    
 public static void statement {
 if (sensorColor.red() && blue) {
     int MEASURE_FOR_ROTATION = 0 ;
@@ -89,5 +92,7 @@ else if (sensorColor.yellow() && yellow) {
 else (nothing) {
     int MEASURE_FOR_ROTATION = 0 ;
 }
+    //code senses the color and recieves input from import file. Ajusts the color wheel based on that data
+    
 
 }
