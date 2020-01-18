@@ -1,4 +1,7 @@
 package org.firstinspires.ftc.robotcontroller.external.samples;
+package com.ctre.phoenix.motorcontrol;
+
+import com.ctre.phoenix.CTREJNIWrapper;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -14,74 +17,77 @@ import edu.wpi.first.wpilibj.DriverStation;
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 
 import java.util.Locale;
-public class gear ratio extends subsystems 
+public class gear ratio extends subsystems {
     // if uisng wheel 1/4 the size of color wheel
+
+    public static final int MEASURE_FOR_ROTATION = 4096;
     
-    public static void {
-    String 'B' = blue;
-    String 'G' = green;
-    String 'R' = red;
-    String 'Y' = yellow;
+    public static void robocolor{
+    String blue = 'B';
+    String green = 'G';
+    String red  = 'R';
+    String yellow ='Y';
     }
     
-    public static void {
-    telemetry.addData ("red" sensorColor.red());
-    telemetry.addData ("blue" sensorColor.blue());
-    telemetry.addData ("yellow" sensorColor.yellow());
-    telemetry.addData ("green" sensorColor.green());
+    public static void sensorColor{
+    telemetry.addData ( sensorColor.red());
+    telemetry.addData (sensorColor.blue());
+    telemetry.addData (sensorColor.yellow());
+    telemetry.addData ( sensorColor.green());
     }
 
-public static void main(String []args) {
-if (sensorColor.red() && String blue) {
-    do nothing;
+public static void statement {
+if (sensorColor.red() && blue) {
+    int MEASURE_FOR_ROTATION = 0 ;
 }
-else if (sensorColor.red() && String yellow) {
-    move 180 degrees  clockwise 1/2 rotation;
+else if (sensorColor.red() && yellow) {
+     int MEASURE_FOR_ROTATION = 2048;
 }
-else if (sensorColor.red() && String green) {
-    move 180 degrees counterclockwise 1/2 rotation;
+else if (sensorColor.red() && green) {
+    int MEASURE_FOR_ROTATION = -2048;
 }
-else if (sensorColor.red() && String red) {
-    move 360 degrees clockwise 1 rotation;
+else if (sensorColor.red() && red) {
+    int MEASURE_FOR_ROTATION = 4096;
 }
-else if (sensorColor.blue() && String red) {
-    do nothing;
+else if (sensorColor.blue() && red) {
+    int MEASURE_FOR_ROTATION = 0 ;
 }
-else if (sensorColor.blue() && String green) {
-    move 180 degrees  clockwise 1/2 rotation;
+else if (sensorColor.blue() && green) {
+    int MEASURE_FOR_ROTATION = 2048;
 }
-else if (sensorColor.blue() && String yellow) {
-    move 180 degrees counterclockwise 1/2 rotation;
+else if (sensorColor.blue() && yellow) {
+    int MEASURE_FOR_ROTATION = -2048;
 }
-else if (sensorColor.blue() && String blue) {
-    move 360 degrees clockwise 1 rotation;
+else if (sensorColor.blue() && blue) {
+    int MEASURE_FOR_ROTATION = 4096;
 } 
-else if (sensorColor.green() && String yellow) {
-    do nothing;
+else if (sensorColor.green() && yellow) {
+    int MEASURE_FOR_ROTATION = 0 ;
 }
-else if (sensorColor.green() && String red) {
-    move 180 degrees  clockwise 1/2 rotation;
+else if (sensorColor.green() && red) {
+    int MEASURE_FOR_ROTATION = 2048;
 }
-else if (sensorColor.green() && String blue) {
-    move 180 degrees counterclockwise 1/2 rotation;
+else if (sensorColor.green() && blue) {
+    int MEASURE_FOR_ROTATION = -2048;
 }
-else if (sensorColor.green() && String green) {
-    move 360 degrees clockwise 1 rotation;
+else if (sensorColor.green() && green) {
+    int MEASURE_FOR_ROTATION = 4096;
 } 
-else if (sensorColor.yellow() && String green) {
-    do nothing;
+else if (sensorColor.yellow() && green) {
+    int MEASURE_FOR_ROTATION = 0 ;
 }
-else if (sensorColor.yellow() && String blue) {
-    move 180 degrees  clockwise 1/2 rotation;
+else if (sensorColor.yellow() && blue) {
+    int MEASURE_FOR_ROTATION = 2048;
 }
-else if (sensorColor.yellow() && String red) {
-    move 180 degrees counterclockwise 1/2 rotation;
+else if (sensorColor.yellow() && red) {
+    int MEASURE_FOR_ROTATION = -2048;
 }
-else if (sensorColor.yellow() && String yellow) {
-    move 360 degrees clockwise 1 rotation;
+else if (sensorColor.yellow() && yellow) {
+    int MEASURE_FOR_ROTATION = 4096;
+
 } 
 else (nothing) {
-    wait for further commands;
+    int MEASURE_FOR_ROTATION = 0 ;
 }
 
 }
