@@ -41,11 +41,7 @@ public class OI {
     
     static Joystick driverJoystick = new Joystick(DRIVER_JOYSTICK);
     static Joystick manipulatorJoystick = new Joystick(MANIPULATOR_JOYSTICK);
-    
-    static BUTTON_A = new A(GREEN);
-    static BUTTON_B = new B(RED);
-    static BUTTON_X = new X(BLUE);
-    static BUTTON_Y = new Y(YELLOW);		    
+		    
     /*
     Examples of Joysticks and Buttons:
     public final Button autoForwardButton = new JoystickButton(driverJoystick, BUTTON_START);
