@@ -21,7 +21,7 @@ import java.util.Locale;
 public class gear ratio extends subsystems {
     // if uisng wheel 1/4 the size of color wheel
 
-    public static final int MEASURE_FOR_ROTATION = 4096;
+    public static final int MEASURE_FOR_ROTATION = 4096 = ;
     //variable for 1 rotation
     
     public static void robocolor{
