@@ -18,7 +18,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 //autonomous code for position control
 
 import java.util.Locale;
-public class gear ratio extends subsystems {
+public class positioncontrol extends subsystems {
     // if uisng wheel 1/4 the size of color wheel
 
     public static final int MEASURE_FOR_ROTATION = 4096 ;
